@@ -86,29 +86,7 @@ class ecocompteur extends eqLogic
 
 class ecocompteurCmd extends cmd
 {
-  /*     * *************************Attributs****************************** */
-
-  /*
-  public static $_widgetPossibility = array();
-  */
-
-  /*     * ***********************Methode static*************************** */
-
-
-  /*     * *********************Methode d'instance************************* */
-
-  /*
-  * Permet d'empêcher la suppression des commandes même si elles ne sont pas dans la nouvelle configuration de l'équipement envoyé en JS
-  public function dontRemoveCmd() {
-  return true;
-  }
-  */
-
-  // Exécution d'une commande
   public function execute($_options = array())
   {
   }
-
-/*     * **********************Getteur Setteur*************************** */
-
 }
