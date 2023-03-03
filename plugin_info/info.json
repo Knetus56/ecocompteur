@@ -1,6 +1,6 @@
 {
 	"id" : "ecocompteur",
-	"name" : "Eco-Compteur",
+	"name" : "ecocompteur",
 	"specialAttributes" : {
 		"object" : {
 			"toto" : {"name" : {"fr_FR" : "Plop je suis un attribut spécial"},"type" : "input"},
