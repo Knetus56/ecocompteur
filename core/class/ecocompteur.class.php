@@ -81,7 +81,11 @@ class ecocompteur extends eqLogic {
   }
 
   // Fonction exécutée automatiquement avant la mise à jour de l'équipement
-  public function preUpdate() {
+  public function preUpdate()
+  {
+      if ($this->getConfiguration('ipcompteur') == '') {
+          throw new Exception(__('Veuillez entrer une IP', __FILE__));
+      }
   }
 
   // Fonction exécutée automatiquement après la mise à jour de l'équipement
