@@ -1,17 +1,8 @@
 {
 	"id" : "ecocompteur",
-	"name" : "ecocompteur",
-	"specialAttributes" : {
-		"object" : {
-			"toto" : {"name" : {"fr_FR" : "Plop je suis un attribut spécial"},"type" : "input"},
-			"toto2" : {"name" : {"fr_FR" : "Plop je suis un attribut spécial number"},"type" : "number"}
-		},
-		"user" : {
-			"toto" : {"name" : {"fr_FR" : "Plop je suis un attribut spécial"},"type" : "select","values" : [{"value" : "1", "name" : "valeur 1"},{"value" : "plop", "name" : "valeur plop"}]}
-		}
-	},
+	"name" : "Eco-Compteur",
 	"description" : {
-		"fr_FR": "ecocompteur"
+		"fr_FR": "Eco-Compteur"
 	},
 	"licence" : "AGPL",
 	"author" : "Jeedom SAS",
@@ -29,15 +20,7 @@
 		"video" : "Lien vers une video"
 	},
 	"language": [
-		"fr_FR",
-		"en_US",
-		"es_ES",
-		"de_DE",
-		"ru_RU",
-		"id_ID",
-		"it_IT",
-		"ja_JP",
-		"pt_PT"
+		"fr_FR"
 	],
 	"compatibility": [
 		"miniplus",
