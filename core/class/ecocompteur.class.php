@@ -37,9 +37,14 @@ class ecocompteur extends eqLogic
       throw new Exception(__('Veuillez entrer une IP', __FILE__));
     }
   }
-  public function postUpdate() {
+
+
+  public function postUpdate()
+  {
     $this->getInformations();
   }
+
+
   public function checkCmdOk($_name)
   {
     $ecocompteurCmd = ecocompteurCmd::byEqLogicIdAndLogicalId($this->getId(), $_name);
@@ -60,6 +65,7 @@ class ecocompteur extends eqLogic
       $ecocompteurCmd->save();
     }
   }
+
 
   public function getInformations()
   {
