@@ -5,16 +5,16 @@
 		"fr_FR": "Eco-Compteur"
 	},
 	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
+	"author" : "Knetus",
 	"require" : "4.2.0",
 	"category" : "energy",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/plugin-ecocompteur/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-ecocompteur/#language#/",
-	"changelog_beta" : "https://jeedom.github.io/plugin-ecocompteur/#language#/beta/changelog",
-	"documentation_beta" : "https://jeedom.github.io/plugin-ecocompteur/#language#/beta/",
+	"changelog" : "",
+	"documentation" : "",
+	"changelog_beta" : "",
+	"documentation_beta" : "",
 	"link" : {
 		"forum":"Lien vers le forum",
 		"video" : "Lien vers une video"
